@@ -8,6 +8,7 @@
 }
 
 /* shared sytles */
+
 .secondary-bg {
   background-color: #FFF8F3;
 }
@@ -64,7 +65,7 @@ nav ul {
   display: flex;
   align-items: center;
 }
-nav ul li {
+ ul li {
   list-style: none;
   margin-right: 50px;
 }
@@ -115,10 +116,16 @@ main {
   display: flex;
   justify-content: space-around;
 }
+.about-item {
+  display: block;
+}
 .item-title {
   font-size: 18px;
   color: rgba(117, 117, 117, 1);
 }
 .item-description {
   font-weight: bold;
+}
+.about-items strong {
+  display: block;
 }
