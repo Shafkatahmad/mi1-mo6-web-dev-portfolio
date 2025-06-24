@@ -154,3 +154,22 @@ main section {
 .resume button {
   margin: 50px 450px;
 }
+
+/* footer styles */
+footer {
+  padding: 130px 230px;
+  display: flex;
+  gap: 100px;
+}
+.footer-column {
+  width: 50%;
+}
+footer input[type="text"], footer input[type="email"], footer textarea {
+  height: 65px;
+  border-radius: 5px;
+  background-color: white;
+  width: 100%;
+  border: none;
+  margin-bottom: 24px;
+  padding: 10px 20px;
+}
